@@ -7,7 +7,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "web-pack"
+    "build": "webpack",
+    "build:w": "webpack --watch"
   },
   "keywords": [],
   "author": "",
