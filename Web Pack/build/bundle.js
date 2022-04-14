@@ -16,7 +16,7 @@
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"sum\": () => (/* binding */ sum)\n/* harmony export */ });\nfunction sum(a, b){\r\n\r\n    return a+b;\r\n}\r\n\r\n\r\n\n\n//# sourceURL=webpack://web-pack/./SRC/calc.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"mult\": () => (/* binding */ mult),\n/* harmony export */   \"sum\": () => (/* binding */ sum)\n/* harmony export */ });\nfunction sum(a, b){\r\n\r\n    return a+b;\r\n}\r\n\r\nfunction mult(a,b){\r\n    return a*b;\r\n}\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://web-pack/./SRC/calc.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _calc__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./calc */ \"./SRC/calc.js\");\n\r\n\r\n\r\n\r\nconsole.log((0,_calc__WEBPACK_IMPORTED_MODULE_0__.sum)(1, 3));\n\n//# sourceURL=webpack://web-pack/./SRC/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _calc__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./calc */ \"./SRC/calc.js\");\n// import logo from \"logo\";\r\n\r\n\r\n\r\n\r\n\r\nconsole.log((0,_calc__WEBPACK_IMPORTED_MODULE_0__.sum)(1, 3));\r\n\r\nconsole.log((0,_calc__WEBPACK_IMPORTED_MODULE_0__.mult)(2, 5));\n\n//# sourceURL=webpack://web-pack/./SRC/index.js?");
 
 /***/ })
 
